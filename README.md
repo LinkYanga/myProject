@@ -20,13 +20,13 @@ myProject 是一套基于 Go 语言构建的前后端分离电商系统，聚焦
 ## 项目结构
 - myProject/
 - ├── xiaomishop/
-- │   ├── server/              # 服务端模块
-- │   │   ├── rbac/            # 权限管理服务
-- │   │   └── captcha/         # 验证码服务
-- │   └── client/              # 客户端模块
-- │       ├── ginshop/         # 商城前端(基于Gin框架)
-- │       ├── captcha-client/  # 验证码客户端
-- │       └── ginWebApi/       # Web API服务
+-  │   ├── server/              # 服务端模块
+-  │   │   ├── rbac/            # 权限管理服务
+-  │   │   └── captcha/         # 验证码服务
+-  │   └── client/              # 客户端模块
+-  │       ├── ginshop/         # 商城前端(基于Gin框架)
+-  │       ├── captcha-client/  # 验证码客户端
+-  │       └── ginWebApi/       # Web API服务
 
 ## 核心功能
 - RBAC 权限管理：基于角色的访问控制，支持角色创建、权限分配、接口级鉴权
